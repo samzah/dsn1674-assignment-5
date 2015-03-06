@@ -1,0 +1,202 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+.grain-left {
+  width:7%;
+  float: left;
+  margin: .5;
+  margin-top: .9em;
+}
+.grain-right {
+  width: 7%;
+  float: right;
+  margin-top: .9em;
+}
+
+nav li {
+  float: left;
+  display: inline-block;
+}
+
+nav li{
+  width: 33.3%;
+  border: 1px solid orange;
+  padding: .5em;
+  text-align: center;
+}
+
+nav ol{
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+}
+
+li:hover{
+  background-color: #7F4424;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin: .1;
+  color: white;
+  padding-bottom: .1em;
+}
+
+h2 {
+  color: #Fff;
+  background-color: #BD6A4F;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+  clear: right
+}
+
+h3 {
+  color: #000;
+  background-color: #fff;
+  padding: 2em;
+  margin: 0;
+  text-align: center;
+  clear: right
+}
+
+header {
+  background-color: #cd5b34;
+  padding-top: .5em;
+  overflow: hidden;
+}
+
+body{
+	margin: 0;
+}
+
+
+main {
+  line-height: 1.25em;
+}
+
+p {
+  margin-left: 15px;
+}
+
+div {
+  background-color: #BD6A4F;
+
+  clear: both
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  color: #Fff;
+  background-color: #BD6A4F;
+  padding: 1em 2em 1em 2em;
+  margin: 0;
+  text-align: center;
+}
+
+
+.inset {
+	float: left;
+	width: 40%;
+	clear: left;
+	margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.inset-right{
+	float: right;
+	width: 40%;
+	clear: right;
+}
+
+.clear-it{
+	float:right;
+	clear: both;
+	width: 40%;
+
+}
+
+.p{
+	margin-left: 0px;
+	clear:right;
+
+}
+
+.p1{
+	clear: left;
+}
+
+.corn {
+  width: 100%;
+  border: 0;
+}
+
+.rice {
+  width: 50%;
+  border: 0;
+  float: left;
+}
+.oats {
+  width: 50%;
+  border: 0;
+  float: right;
+}
+
+.peanuts {
+  width: 25%;
+  float: left;
+  clear: both;
+  border: 1px solid black;
+  margin: 0em 0.5em 1em 1em;
+  background-color: white;
+  overflow: hidden;
+}
+
+.beans {
+  width: 25%;
+  float: left;
+  clear: both;
+  border: 1px solid black;
+  margin: 0em 0.5em 1em 1em;
+  background-color: white;
+  overflow: hidden;
+}
+
+.lentils{
+  width: 25%;
+  float: left;
+  clear: both;
+  border: 1px solid black;
+  margin: 0em 0.5em 1em 1em;
+  background-color: white;
+  overflow: hidden;
+}
+
+div{
+	background-color: orange;
+	overflow: hidden;
+}
+
+footer {
+  padding: 2em 2em 2em 2em;
+  color: white;
+  background-color: #cd5b34;
+  clear: both;
+  text-align: center;
+}
